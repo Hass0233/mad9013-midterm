@@ -45,6 +45,7 @@ HEADER
    height: auto;
    background-color: aqua;
    margin-bottom: 2em;
+   text-align:center;
    }
 
 .masthead h1 {
@@ -77,6 +78,7 @@ NAVIGATION
     width: 100%;
     height: auto;
     margin-bottom: 7%;
+    text-align:center;
     }
 
 .mainnav ul {
@@ -120,6 +122,7 @@ MAIN
     border: 3px solid #333;
     color: #fff;
     background-color:#333;
+    text-align:center;
     }
 
 
@@ -139,6 +142,7 @@ SIDE BAR
     border: 3px solid #333;
     color: #fff;
     background-color:#333;
+    text-align:center;
     }
 
 /**********************************************************
@@ -150,6 +154,7 @@ FOOTER
     background-color: #333;
     color: #fff;
     padding: 2em;
+    text-align:center;
     }
 
 
