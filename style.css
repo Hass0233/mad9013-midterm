@@ -1,4 +1,9 @@
 
+li {
+     white-space: nowrap;
+}
+
+
 
 /**********************************************************
 MOBILE LAYOUT
@@ -255,7 +260,6 @@ NAVIGATION
     border-color: #333;
     display:inline;
     padding: 0 3%;
-    white-space: nowrap;
     }
 
 .mainnav a, nav a:visited {
