@@ -1,0 +1,506 @@
+
+
+/**********************************************************
+MOBILE LAYOUT
+**********************************************************/
+
+
+
+@media (max-width: 35rem){
+
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+html {
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-family: Helvetica, Calibri, sans-serif;
+    }
+    
+    
+    
+/* -- Layout -- */
+
+.wrapper {
+    max-width: 150rem;
+    width: 100%;
+    background-color:#e9e9e9;
+    } 
+
+img {
+    width: 100%;
+    height: auto;
+    }
+
+
+/**********************************************************
+HEADER
+**********************************************************/
+
+.masthead {
+   width: 100%;
+   height: auto;
+   background-color: aqua;
+   margin-bottom: 2em;
+   }
+
+.masthead h1 {
+    font-size: 3rem;
+    line-height: 5;
+    background: url("http://lorempixel.com/700/310/cats/") no-repeat 50% 50%;
+    background-size: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    
+    /* -- make the 2rem padding standard --*/
+    }
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    }  
+
+h3 {
+    font-size: 2rem;
+    color: #333;
+    }
+
+
+/**********************************************************
+NAVIGATION
+**********************************************************/
+
+.mainnav {
+    width: 100%;
+    height: auto;
+    margin-bottom: 7%;
+    }
+
+.mainnav ul {
+    padding: 1% 1% 1% 1%;
+    list-style: none;
+    background-color: #333;
+    }
+
+.mainnav li {
+    font-size: 1.5em;
+    border: 4px;
+    border-style: solid;
+    border-color: #333;
+    }
+
+.mainnav a,
+    nav a:visited {
+    padding: 2%;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    }
+
+.mainnav a:hover, a:active {
+    background-color: #fff;
+    color: #333;
+    }
+
+/**********************************************************
+MAIN
+**********************************************************/
+
+.content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3em;
+  }
+
+.primary h2, h3 {
+    line-height: 2; 
+    border: 3px solid #333;
+    color: #fff;
+    background-color:#333;
+    }
+
+
+/**********************************************************
+SIDE BAR
+**********************************************************/
+
+
+.side {
+   width: 100%;
+   height: auto;
+   margin-bottom: 3em;
+   }
+
+.side h3 {
+    line-height: 2; 
+    border: 3px solid #333;
+    color: #fff;
+    background-color:#333;
+    }
+
+/**********************************************************
+FOOTER
+**********************************************************/
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    }
+
+
+}
+
+
+
+/*****************************************************************
+TABLET LAYOUT
+******************************************************************/
+
+
+
+@media (min-width: 36em) {
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+html {
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-family: Helvetica, Calibri, sans-serif;
+    }
+    
+
+.wrapper {
+    max-width: 100%;
+    height:auto;
+    color: #333;
+    background-color:#e9e9e9;
+    } 
+
+img {
+    width: 100%;
+    height: auto;
+    }
+
+
+
+/**********************************************************
+HEADER
+**********************************************************/
+
+.masthead {
+   width: 100%;
+   height: auto;
+   background-color: orange;
+   text-align:center;
+   margin-bottom: 3%;
+   }
+
+.masthead h1 {
+    font-size: 3.50rem;
+    line-height: 5;
+    background: url("http://lorempixel.com/700/310/cats/") no-repeat 50% 50%;
+    background-size: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    }
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    }  
+
+h3 {
+    font-size: 2rem;
+    color: #333;
+    }
+
+
+/**********************************************************
+NAVIGATION
+**********************************************************/
+
+.mainnav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5%;
+    }
+
+.mainnav ul {
+    padding: 2% 2% 2% 2%;
+    list-style: none;
+    background-color: #333;
+    }
+
+.mainnav li {
+    font-size: 1.5em;
+    border-top: 4px;
+    border-bottom: 4px;
+    border-style: solid;
+    border-color: #333;
+    display:inline;
+    padding: 0 3%;
+    }
+
+.mainnav a, nav a:visited {
+    text-decoration: none;
+    color: #fff;
+    padding:1% 2%;
+    }
+
+.mainnav a:hover, a:active {
+    background-color:#fff;
+    color: #333;
+    }
+
+
+       
+/**********************************************************
+MAIN
+**********************************************************/
+
+    
+.content {
+  width: 58%;
+  float:left;
+  margin-bottom: 2%;
+  }
+    
+.primary h2, h3 {
+ text-align: center;
+ line-height: 2;
+ border: 3px solid #333;
+ color: #fff;
+ background-color:#333;
+  }
+
+/**********************************************************
+SIDE BAR
+**********************************************************/
+   
+
+.side {
+   width: 37%;
+   float:right;
+   }
+
+.side h3 {
+    line-height: 1.90; 
+    text-align:center;
+    border: 3px solid #333;
+    color: #fff;
+    background-color:#333;
+    }
+    
+
+/**********************************************************
+FOOTER
+**********************************************************/
+
+
+.footer {
+    text-align:center;
+    background-color:#333;
+    color: #fff;
+    padding: 2em;
+    clear: both;
+    height: 0%;
+    line-height: 0;
+    }
+    
+
+
+}
+
+
+
+/********************************************************
+DESKTOP LAYOUT
+*********************************************************/
+
+
+
+@media (min-width: 60em){
+
+    
+    
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+html {
+    font-size: 0.8rem;
+    line-height: 1.75rem;
+    font-family: Helvetica, Calibri, sans-serif;
+    }
+    
+
+.wrapper {
+    max-width: 1600px;
+    height:auto;
+    color: #333;
+    background-color:#e9e9e9;
+    } 
+
+    
+img {
+    width: 100%;
+    height: auto;
+    }
+
+
+/**********************************************************
+HEADER
+**********************************************************/
+
+.masthead {
+   width: 100%;
+   height: auto;
+   background-color: green;
+   text-align:center;
+   margin-bottom: 3%;
+  }
+
+.masthead h1 {
+    font-size: 3.50rem;
+    line-height: 3;
+    background: url("http://lorempixel.com/700/310/cats/") no-repeat 50% 50%;
+    background-size: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    }
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    }  
+
+h3 {
+    font-size: 2rem;
+    color: #333;
+    }
+
+
+/**********************************************************
+NAVIGATION
+**********************************************************/
+
+
+    
+.mainnav {
+    width: 25%;
+    text-align: center;
+    float:left;
+    clear:both;
+    margin: 4% 1% 0 0;
+    }
+
+.mainnav ul {
+    padding: 0% 2%;
+    list-style: none;
+    background-color: #333;
+    }
+
+    
+.mainnav li {
+    font-size: 1.5rem;
+    border-top: 4px;
+    border-bottom: 4px;
+    border-style: solid;
+    border-color: #333;
+    display:block;
+    padding: 2% 3%;
+    }
+
+.mainnav a,
+    nav a:visited {
+    text-decoration: none;
+    color: #fff;
+    padding:1% 2%;
+    }
+
+.mainnav a:hover,
+    a:active {
+    background-color:#fff;
+    color: #333;
+    }
+
+
+       
+/**********************************************************
+MAIN
+**********************************************************/
+
+    
+.content {
+  width: 40%;  
+  }
+ 
+.primary {
+-webkit-column-count:2;
+ }
+.primary h2, .primary h3 {
+    -webkit-column-span: all;
+    line-height: 2;
+    border: 3px solid #333;
+    color: #fff;
+    background-color:#333;
+    }
+
+
+/**********************************************************
+SIDE BAR
+**********************************************************/
+   
+
+.side {
+   width: 32%;
+   float:right;
+   margin-bottom: 3%;
+   -webkit-column-count: 2;
+   }
+
+.side h3 {
+    line-height: 2; 
+    text-align:center;
+    -webkit-column-span: all;
+    border: 3px solid #333;
+    color: #fff;
+    background-color:#333;
+    }
+    
+
+/**********************************************************
+FOOTER
+**********************************************************/
+
+
+.footer {
+    text-align:center;
+    background-color:#333;
+    color: #fff;
+    padding: 2em;
+    clear: both;
+    height: 0%;
+    line-height: 0;
+    }
+    
+}
+
+
+
